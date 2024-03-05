@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+
+<body>
+
+
+    <div id="header">
+        Message Chat App
+    </div>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="bhoomi-selector">Bhoomi</button>
+        <button class="button person-selector-button " id="neha-selector">Neha</button>
+    </div>
+
+
+
+    <div class="chat-container">
+        <h2 class="chat-header">Bhoomi Chatting...</h2>
+        <div class="chat-messages">
+            <div class="message blue-bg">
+                <div class="message-sender" id="bhoomi">Bhoomi</div>
+                <div class="message-text">Hey Neha....</div>
+                <div class="message-timestamp">10.30 AM</div>
+            </div>
+            <div class="message gray-bg">
+                <div class="message-sender" id="neha">Neha</div>
+                <div class="message-text">Bhoomi..hi...how are you?</div>
+                <div class="message-timestamp">10.35 AM</div>
+            </div>
+        </div>
+
+
+        <form action="" class="chat-input-form">
+
+
+            <input type="text" class="chat-input" required placeholder="Type Here">
+            <button type="submit" class="button send-button">Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Chat</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="./index.js"></script>
